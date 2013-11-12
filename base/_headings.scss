@@ -9,22 +9,22 @@
  * heading hierarchy.
  */
 h1,.alpha{
-    @include font-size($h1-size);
+    @include font-size($h1-size, false);
 }
 h2,.beta{
-    @include font-size($h2-size);
+    @include font-size($h2-size, false);
 }
 h3,.gamma{
-    @include font-size($h3-size);
+    @include font-size($h3-size, false);
 }
 h4,.delta{
-    @include font-size($h4-size);
+    @include font-size($h4-size, false);
 }
 h5,.epsilon{
-    @include font-size($h5-size);
+    @include font-size($h5-size, false);
 }
 h6,.zeta{
-    @include font-size($h6-size);
+    @include font-size($h6-size, false);
 }
 
 
